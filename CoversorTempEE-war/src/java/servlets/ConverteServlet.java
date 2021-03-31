@@ -60,7 +60,7 @@ public class ConverteServlet extends javax.servlet.http.HttpServlet {
         contConvBean.incContagem();
         out.println("<html><h1>Exemplo de uso de EJBs de Sessão</h1>");
         out.println("<h2>Servlet 1: Conversão de Temperatura - de Celsius para Farenheit</h2>");
-        out.println("<p>[Stateless] O resultado da conversão de "+ request.getParameter("temp") + " graus Celsius  para Farenheit é " + convBean.cToF(tempIn) + "</p>");
+        out.println("<p>[Stateless] O resultado da conversão de "+ request.getParameter("temp") + " graus Celsius para Farenheit é " + convBean.cToF(tempIn) + "</p>");
         out.println("<p></p>");
         out.println("<p>[Stateful] Histórico de coversões solicitadas nesta sessão:</p>");
         out.println("<ul>");
